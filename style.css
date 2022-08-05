@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 10rem 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+
+  color: var(--purple);
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #imagem {
+  margin-bottom: 2.2rem;
+
+  width: 200px;
+  height: 200px;
+
+  border: solid var(--purple) 2px;
+  border-radius: 100em;
+
+  padding: 0.6rem;
+}
+
+main #img {
+  margin-bottom: 2.2rem;
+
+  width: 200px;
+
+  border-radius: 100rem;
+
+  top: 20px;
+}
+
+main #navigation {
+  margin-top: 3.3rem;
+  margin-bottom: 6.8rem;
+}
+
+main #navigation ul {
+  padding: 0;
+
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+main #navigation ul li a {
+  color: var(--purple);
+
+  font-weight: 600;
+
+  padding: 12px 150px;
+
+  border: solid 2px var(--purple);
+  border-radius: 0.5rem;
+
+  text-decoration: none;
+
+  display: flex;
+  transition: .3s;
+}
+
+main #navigation ul li a:hover {
+  filter: brightness(70%);
+  transition: .3s;
+}
+
+main #social-media ul {
+  list-style: none;
+
+  padding: 0;
+
+  display: flex;
+  gap: 3rem;
+}
+
+main #social-media ul li a {
+  display: flex;
+  flex: row;
+}
+
+main #social-media ul li a img {
+  width: 24px;
+  height: 24px;
+  transition: .3s;
+}
+
+main #social-media ul li a img:hover {
+  width: 30px;
+  height: 30px;
+  transition: .3s;
+}
